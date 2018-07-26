@@ -1,14 +1,14 @@
 
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
-# music_library = {
-#                 :taylor_swift => "yjdkjfg"
-#                 :silento      => "shskjfsj"
-#                 :selena_gomez => "ksahfshjf"
-#                 :mark_ronson  => "hahfafhaf"
-#                 :andy_grammer => "ihahjb,b"
-#                 :maroon_five  => "ahfaf,af,ah"
-#                 }
+music_library = {
+                :taylor_swift => "yjdkjfg"
+                :silento      => "shskjfsj"
+                :selena_gomez => "ksahfshjf"
+                :mark_ronson  => "hahfafhaf"
+                :andy_grammer => "ihahjb,b"
+                :maroon_five  => "ahfaf,af,ah"
+                }
 
 
 def list_artists(music_library)
@@ -38,9 +38,9 @@ def delete_artist(music_library, artist)
     end
     
   end
- puts updated_hash
+  updated_hash
 end
-# puts delete_artist(music_library, :TaylorSwift)
+puts delete_artist(music_library, :TaylorSwift)
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
