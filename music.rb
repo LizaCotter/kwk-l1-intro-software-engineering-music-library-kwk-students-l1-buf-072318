@@ -40,7 +40,7 @@ def delete_artist(music_library, artist)
   end
   updated_hash
 end
-puts delete_artist(music_library, :TaylorSwift)
+puts delete_artist(music_library, :taylor_swift)
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
