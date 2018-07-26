@@ -38,7 +38,7 @@ def delete_artist(music_library, artist)
     end
     
   end
-  updated_hash
+ puts updated_hash
 end
 # puts delete_artist(music_library, :TaylorSwift)
 
