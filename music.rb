@@ -47,6 +47,7 @@ end
 
 def add_song_and_artist(music_library, artist, song)
   music_library[artist] = song
+  music_library
 end
   
 
