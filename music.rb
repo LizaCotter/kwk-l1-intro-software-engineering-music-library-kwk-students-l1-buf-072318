@@ -35,13 +35,12 @@ def delete_artist(music_library, artist)
   music_library.each do |artist1, song|
     if artist1 != artist
       updated_hash[artist1] = song
-      
     end
     
   end
-  updated_hash
+  puts updated_hash
 end
-puts updated_hash
+
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
